@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form practice</title>
+</head>
+<body>
+<h2>Survey</h2>
+<Form action="form-practice-submit.html" method="post">
+  <div>
+    <label>Name:
+      <input type="text" name="name" id="name" maxlength="32"/>
+    </label>
+  </div>
+  <div>
+    <label>
+      Select your favourite day of the week
+      <select name="favDay">
+        <option value=”Monday” selected="selected">Monday</option>
+        <option value=”Tuesday”>Tuesday</option>
+        <option value=”Wednesday”>Wednesday</option>
+        <option value=”Thursday”>Thursday</option>
+        <option value=”Friday”>Friday</option>
+        <option value=”Saturday”>Saturday</option>
+        <option value=”Sunday”>Sunday</option>
+      </select>
+    </label>
+  </div>
+  <div>
+    <label>Please write down 3 of your greatest dreams:
+      <textarea name="dreamBox" id="dreams"></textarea>
+    </label>
+  </div>
+  <div>
+    <label>Favourite Animal Listed</label>
+    <label>
+      <input type="radio" value="dog" name="favAnimal">Dog
+    </label>
+    <label>
+      <input type="radio" value="cat" name="favAnimal">Cat
+    </label>
+    <label>
+      <input type="radio" value="parrot" name="favAnimal">Parrot
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+
+</Form>
+
+</body>
+</html>
